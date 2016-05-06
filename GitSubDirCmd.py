@@ -57,7 +57,7 @@ def parse_command_line():
     This method parses the command line and returns a dictionary of all the options.
     """
     try:
-        opts, args = getopt.getopt(sys.argv[1:], "d:c:h", ["directory", "command", "help"])
+        opts, args = getopt.getopt(sys.argv[1:], "d:c:g:h", ["directory", "command", "git", "help"])
     except getopt.GetoptError:
         print_usage()
         sys.exit(-1)
