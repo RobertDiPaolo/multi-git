@@ -2,7 +2,7 @@
 Run a Git command on multiple repositories.
 
 ## Usage
-GitSubDirCmd -d <Directory\> -c "<git command\>"
+GitSubDirCmd -d \<Directory\> -c "\<git command\>"
  
 	-d, --directory A directory to start the scan, all sub directories will be scanned.
 	-c, --command   The git command to execute on each repository found.
