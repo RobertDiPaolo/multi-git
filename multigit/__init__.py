@@ -1,0 +1,5 @@
+__author__ = 'Robert Di Paolo'
+__email__ = 'robertmdipaolo@gmail.com'
+__copyright__ = '2018 Robert Di Paolo'
+__license__ = 'MIT'
+__version__ = '0.1'
