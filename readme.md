@@ -17,10 +17,10 @@ You'll then be able to run `mult-git` from the command line.
     
 
 ## Git Credentials
-The simplest option is to setup an ssh key (see here for bitbucket)[https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html#SetupanSSHkey-ssh2]
+The simplest option is to setup an ssh key [see here for bitbucket](https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html#SetupanSSHkey-ssh2)
 and then use the ssh urls like so `ssh://git@bitbucket.org/<repo_owner>/<reponame>.git`
 
-If you want to use https, you'll have to use the git (credentials storage)[https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage] to save credentials, 
+If you want to use https, you'll have to use the git [credentials storage](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage) to save credentials, 
 which is a bit more painful to setup.
 
 Alternatively, and not recommended, you can store the repos in the .git-repos.yml file by putting them in the url.
