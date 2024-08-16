@@ -2,19 +2,11 @@
 Run a Git command on multiple repositories.
 
 ## Install
-It's recommended you create a venv, by doing;
+Ubuntu distributions already include `python3-yaml` which is the only dependency so it can be installed locally.
 
-    python3 -m virtualenv env -p /usr/bin/python3
-    . env/bin/activate
-    
-Then install the deps, build the dist and install;
-
-    pip install -e .
-    python setup.py sdist
-    sudo -H /usr/bin/pip3 install ./dist/multi-git-0.1.tar.gz
+    python3.10 -m pip install .
     
 You'll then be able to run `mult-git` from the command line.
-    
 
 ## Git Credentials
 The simplest option is to setup an ssh key [see here for bitbucket](https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html#SetupanSSHkey-ssh2)

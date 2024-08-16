@@ -93,7 +93,7 @@ def find_git_repos(config_file: str, working_dir: str) -> Iterator[GitRepo]:
 
     with open(config_file, 'r') as stream:
         try:
-            doc = yaml.load(stream)
+            doc = yaml.load(stream, Loader=yaml.FullLoader)
         except yaml.YAMLError as exc:
             print(exc)
             exit(-1)
