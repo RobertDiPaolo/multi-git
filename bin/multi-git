@@ -5,9 +5,9 @@ import re
 import sys
 
 #find and append the multigit module path, must be a better way to handle this!
-import imp
-bt_path = imp.find_module('multigit')[1]
-sys.path.append(bt_path)
+#import imp
+#bt_path = imp.find_module('multigit')[1]
+#sys.path.append(bt_path)
 
 from multigit.multigit import main
 
